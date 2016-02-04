@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+              android:id="@+id/ll"
+              android:background="@drawable/image2"
+              android:orientation="vertical"
+             tools:context=".DetailsForm">
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="  Name"
+        android:drawableLeft="@drawable/account"
+        android:id="@+id/name_editText"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="  Phone"
+        android:drawableLeft="@drawable/cellphone"
+        android:id="@+id/contact_editText"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="  College"
+        android:drawableLeft="@drawable/home"
+        android:id="@+id/college_editText"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="  Year"
+        android:drawableLeft="@drawable/school"
+        android:id="@+id/year_editText"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="  github username"
+        android:drawableLeft="@drawable/github"
+        android:id="@+id/git_editText"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="  Skills"
+        android:drawableLeft="@drawable/key"
+        android:layout_weight="2"
+        android:id="@+id/skills_editText"/>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/skills"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:background="#0F9D58"
+        android:layout_marginTop="20dp"
+        android:onClick="submit"/>
+
+
+</LinearLayout>

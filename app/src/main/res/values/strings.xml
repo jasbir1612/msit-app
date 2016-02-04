@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">mentor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="skills">
+        <item>java</item>
+        <item>python</item>
+        <item>ruby</item>
+        <item>erlang</item>
+        <item>c</item>
+        <item>android</item>
+        <item>css</item>
+        <item>bootstrap</item>
+    </string-array>
+</resources>
